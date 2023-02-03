@@ -459,7 +459,14 @@ section.experience h2 {
     margin-bottom: 120px;
   }
 
+  .experience .experience-container .my-experience h3,
+  .experience .experience-container .my-experience p {
+    text-align: center;
+    margin: 0 auto;
+  }
+
   /* contact */
+
   .contact .contact-row {
     flex-direction: column;
   }
@@ -468,13 +475,17 @@ section.experience h2 {
     margin-right: 0px;
   }
 
-  .experience .experience-container .my-experience h3,
-  .experience .experience-container .my-experience p {
-    text-align: center;
-    margin: 0 auto;
-  }
-
   .contact .contact-row p:first-child {
     padding: 10px 14px;
+  }
+
+  /* back button */
+  .back-button {
+    position: static;
+    margin: 0 auto 40px;
+  }
+
+  .back-button i {
+    margin-bottom: 0;
   }
 }
